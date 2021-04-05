@@ -1,6 +1,5 @@
 import React from 'react'
 import "./style.css"
-import img from "./img.jpg"
 
 const Home = () => {
     <section class="intro" id="home">
