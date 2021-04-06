@@ -1,5 +1,8 @@
 import React from 'react'
 import "./contact.css"
+import "./CYOA.png"
+import "./ragingmongooses.png"
+import "./timedQuiz.png"
 
 
 const Portfolio = () => {
