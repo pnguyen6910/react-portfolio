@@ -7,17 +7,21 @@ import ContactPage from './pages/contact'
 import PortfolioPage from './pages/portfolio'
 import HomePage from './pages/home'
 import AboutPage from './pages/about'
+import Nav from './components/Nav/nav'
 
 function App() {
   return (
     <Router>
       <Nav />
       <Switch>
-        <Route path="/Contact">
+        <Route path="/contact">
           <ContactPage />
         </Route>
         <Route path="/portfolio">
           <PortfolioPage />
+        </Route>
+        <Route path="/about">
+          <AboutPage />
         </Route>
         <Route path="/">
           <HomePage />
