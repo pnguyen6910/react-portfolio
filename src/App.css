@@ -33,7 +33,7 @@
 }
 
 body {
-    background-image: url("assets/moonbackground.jpg");
+    background-image: url("./moonbackground.jpg");
     background-size: cover;
     margin: 0;
     color: white;
@@ -156,7 +156,7 @@ section {
 .my-services {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    background-image: url(assets/battlestation.jpg);
+    background-image: url(./battlestation.jpg);
     background-size: cover;
     background-blend-mode: multiply; 
     text-align: center;
